@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+body {
+	background-color: #cccccc;
+	background-size: 1280px 720px;
+	opacity: 0; 
+    transition: opacity 3s; 
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+
+a.navlink {
+	color: white;
+	font-size: 20px;
+	font-family: 'Lexend Deca', sans-serif;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+	transition:.5s;
+	margin-top: 20px;
+}
+
+a.navlink:hover {
+	color:#00d0ff;
+}
+
+
+img.aboutpic {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    width: auto;
+}
+
+img.initials {
+	position: absolute;
+	margin-left: 20px;
+}
+
+ul.navbar {
+	margin-left: 150px;
+	margin-top: 40px;
+	position: absolute;
+	top: 0;
+	left:0;
+	display: inline-block;
+}
+
+a.navlink {
+	color: white;
+	font-size: 20px;
+	font-family: 'Lexend Deca', sans-serif;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+	transition:.5s;
+	margin-top: 20px;
+	text-decoration: none;
+		margin-right: 20px;
+
+}
+
+a.nav-link:hover {
+	color:#002169;
+}
+
+
+div.edu {
+	text-align: left;
+	color: black;
+	font-family:  'Lexend Deca', sans-serif;
+	margin-top: 150px;
+	margin-right: 100px;
+}
+
+div.group1 {
+	margin: auto;
+}
+
+img.kindle {
+	width: auto;
+	height: 200px;
+	padding: 75px;
+	padding-bottom: 0px;
+}
+
+img.camera {
+	width: auto;
+	height: 200px;
+	padding: 75px;
+	padding-bottom: 0px;
+}
+
+ul.hobbypics {
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+}
+
+div.camera {
+	text-align: center;
+}
+
+img.sunglasses {
+	padding: 0px;
+	padding-top: 10px;
+	width: auto;
+	height: 200px;
+}
+
+div.hobbies {
+	color: black;
+	font-size: 20px;
+	font-family: 'Lexend Deca', sans-serif;
+	width: 51%;
+	text-align: center;
+	margin: auto;
+}
+
+hr {
+	border-top: 1px solid black;
+}
+
+
+#container {
+	height: 200px;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.box1, .box2 {
+	width: 300px;
+	height: 125px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+
+.stretch {
+	width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+
+
+img.icons {
+	display: inline-block;
+}
+
+div.nav3 {
+	text-align: center;
+}
+
+.socialmedia {
+	padding: 15px;
+}
+
+p.footer {
+	color: black;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+div.footer {
+	color: black;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
