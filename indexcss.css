@@ -82,15 +82,17 @@ p.at {
 	font-size: 25px;
 }
 
-ul.softwareskills {
-	text-align: center;
-}
+
 
 p.softwareskills {
 	text-align: center;
 	font-family: 'Lexend Deca', sans-serif;
 	color: white;
 	font-size: 40px;
+}
+
+ul.softwareskills {
+	text-align: center;
 }
 
 /*  In-line keeps the images on one line and 
