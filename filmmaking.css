@@ -6,6 +6,16 @@ body {
     transition: opacity 2s;
 }
 
+img.filmmakingpic {
+	display: block;
+	width: 70%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -34,18 +44,11 @@ body {
   color: white;
 }
 
+
 a {
 	font-family: 'Lexend Deca', sans-serif;
 }
 
-h5 {
-	color: white;
-	font-size: 60px;
-	font-family: 'Lexend Deca', sans-serif;
-	text-align: center;
-	margin: auto;
-
-}
 
 p {
 	color: white;
@@ -54,6 +57,18 @@ p {
 	width: 70%;
 	text-align: center;
 	margin: auto;
+}
+
+a.links:link {
+	color: aqua;
+}
+
+a.links:visited {
+	color: aqua;
+}
+
+a.links:hover {
+	color: aqua;
 }
 
 iframe {
