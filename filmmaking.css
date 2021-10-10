@@ -4,15 +4,38 @@
 body {
 	opacity: 0; 
     transition: opacity 2s;
+	background-color: black;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* hide scroll bars on Chrome, Safari and Opera*/
+body::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+
+
+
 img.filmmakingpic {
+	border-radius: 50px;
 	display: block;
-	width: 70%;
-	height: 70%;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 50px;
+	width: 70%;
 }
 
 
@@ -124,7 +147,7 @@ p.footer {
 }
 
 div.footer {
-	color: black;
+	color: white;
 	font-family: 'Lexend Deca', sans-serif;
 	font-size: 12px;
 	text-align: center;

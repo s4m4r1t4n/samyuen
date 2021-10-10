@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-	background-color: #060045;
+	background-color: white;
 	background-size: 1280px 720px;
 	opacity: 0; 
     transition: opacity 3s; 
@@ -13,13 +13,19 @@ html, body {
     padding: 0;
 }
 
-img.indexpic {
-    padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    width: auto;
+/* hide scroll bars on Chrome, Safari and Opera*/
+body::-webkit-scrollbar {
+	display: none;
 }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
   
 /* Add a black background color to the top navigation */
 .topnav {
@@ -51,29 +57,9 @@ img.indexpic {
 
 a {
 	font-family: 'Lexend Deca', sans-serif;
+	text-decoration: none;
 }
 
-/*nav.navbar {
-	margin-left: 50px;
-	position: absolute;
-	top: 0;
-	left:0;
-}
-a.nav-link {
-	color: white;
-	font-size: 20px;
-	font-family: 'Lexend Deca', sans-serif;
-	-o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-	transition:.5s;
-	margin-top: 20px;
-}
-
-a.nav-link:hover {
-	color:#002169;
-}*/
 
 p.links {
 	padding-left: 60px;
@@ -118,7 +104,7 @@ p.at {
 p.softwareskills {
 	text-align: center;
 	font-family: 'Lexend Deca', sans-serif;
-	color: white;
+	color: black;
 	font-size: 40px;
 }
 
@@ -140,7 +126,7 @@ img.software {
 
 figcaption {
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 a:hover {
@@ -150,7 +136,7 @@ a:hover {
 
 
 p.codingskills {
-	color: white;
+	color: black;
 	font-family: 'Lexend Deca', sans-serif;
 	text-align: center;
 	font-size: 40px;
@@ -165,7 +151,7 @@ ul.codingskills {
 	text-align: center;
 }
 p.creativeskills {
-	color: white;
+	color: black;
 	font-family: 'Lexend Deca', sans-serif;
 	text-align: center;
 	font-size: 40px;
@@ -190,12 +176,10 @@ figure.creativeskills {
 	width: auto;
 }
 
-hr {
-	border-top: 1px solid white;
-}
+
 
 .footer {
-	color: white;
+	color: black;
 	font-family: 'Lexend Deca', sans-serif;
 	font-size: 12px;
 	text-align: center;
@@ -242,7 +226,7 @@ div.nav3 {
 }
 
 p.footer {
-	color: white;
+	color: black;
 	font-family: 'Lexend Deca', sans-serif;
 	font-size: 12px;
 	text-align: center;
